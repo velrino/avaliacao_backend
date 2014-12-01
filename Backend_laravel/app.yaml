@@ -1,0 +1,13 @@
+: aplicação  ingresse-backend-001 
+version: 1 
+runtime:  php 
+api_version: 1
+
+manipuladores :
+
+- url: /favicon\.ico 
+  static_files:  público / favicon.ico 
+  de upload:  público / favicon \ .ico
+
+- Url: /.* 
+  script:  public / index.php
